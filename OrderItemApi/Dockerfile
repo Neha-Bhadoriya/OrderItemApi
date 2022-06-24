@@ -2,7 +2,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 #COPY ["DemoAPIAzure467/DemoAPIAzure467.csproj", "DemoAzureApi/"]
 #COPY /DemoAPIAzure467/DemoAPIAzure467.csproj .
-COPY MenuItemList.csproj .
+COPY OrderItemApi.csproj .
 RUN dotnet restore
 COPY . .
 RUN dotnet publish -c release -o /app
