@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\OrderItemApi",
+    "\\OrderItemApi\\Controllers",
+    "\\OrderItemApi\\Models"
+  ],
+  "SelectedNode": "\\OrderItemApi\\Models\\Cart.cs",
+  "PreviewInSolutionExplorer": false
+}
